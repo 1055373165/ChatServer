@@ -24,9 +24,11 @@ Later will try protobuf, or Gob to write protocol.
 # Run.
 
 1. run server
+
 `go run server/cmd/main.go`
 
 2. run client (in multiple ternimal)
+
 `go run tui/cmd/main.go -server=localhost:3333`
 
 ![](resources/2024-04-20-01-12-06.png)
